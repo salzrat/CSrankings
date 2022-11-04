@@ -219,6 +219,10 @@ areadict: Dict[Area, List[Conference]] = {
         Conference("ACM Trans. Graph."),
         Conference("SIGGRAPH Asia"),
     ],
+    Area("eurographics"): [
+        Conference("EUROGRAPHICS"),
+        Conference("Computer Graphics Forum"),
+    ],
     # SIGIR
     # 'ir': ['WWW', 'SIGIR'],
     Area("sigir"): [Conference("SIGIR")],
